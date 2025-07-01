@@ -1,0 +1,192 @@
+(footprint "module_bme280_alt"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.254 -10.16 0)
+		(layer "F.SilkS")
+		(uuid "81abb23e-5040-46be-ae74-5e8046396f5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "module_bme280_alt"
+		(at 5.588 3.048 0)
+		(layer "F.Fab")
+		(uuid "29c3c311-c5ed-4ba7-b4dc-5881c2a89b2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88716b64-7180-4d1d-ac80-1fb2045d9730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c87a0df5-684f-45aa-967a-d0cbfa7fcfbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.778 -9.271)
+		(end 12.192 -9.271)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ce820c5-4e13-4461-846f-5fc5908591ef")
+	)
+	(fp_line
+		(start -1.778 1.905)
+		(end -1.778 -9.271)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fb6b18f-3732-4c3a-96f5-2f0c1896273a")
+	)
+	(fp_line
+		(start 12.192 -9.271)
+		(end 12.192 1.905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "505ac3b9-79e5-4f4b-88e9-dc49d32d4026")
+	)
+	(fp_line
+		(start 12.192 1.905)
+		(end -1.778 1.905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3091d127-eb26-4ab6-98f9-13fb9c084911")
+	)
+	(fp_circle
+		(center 9.017 -6.179309)
+		(end 9.779 -5.060916)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1516b5ec-3463-4a93-b802-b8d42b44c9ab")
+	)
+	(fp_text user "GND"
+		(at 2.794 -5.08 0)
+		(layer "F.SilkS")
+		(uuid "1a713808-74fd-41eb-ab03-657907345a41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VIN"
+		(at 2.794 -7.62 0)
+		(layer "F.SilkS")
+		(uuid "9bbccf32-1601-4c30-8138-915b30b63e73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SDA"
+		(at 2.794 0 0)
+		(layer "F.SilkS")
+		(uuid "9ea3b51e-24c8-4629-8cf6-4eaf4a0a078b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SCL"
+		(at 2.794 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "aacb53c8-cce7-41f5-9abd-c53eafd95549")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7.62)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2d866ba-3eaf-4bdd-be15-f7a975695779")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.08)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7bc6722-f7d7-44c0-9fd1-242474021bf2")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50ac88a9-8f2d-4110-a5d4-eaf9ed2853d0")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72d3eaa3-e524-47a3-832b-fa94ec043446")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/kicad_sensors/usini_sensors.pretty/BME280_ALT.STEP"
+		(offset
+			(xyz -1.5 3.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

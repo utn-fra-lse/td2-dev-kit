@@ -1,0 +1,4 @@
+devkit.kicad_pcb.zip
+*.lck
+devkit-backups
+fp-info-cache
