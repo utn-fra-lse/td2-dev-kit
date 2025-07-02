@@ -5520,6 +5520,10 @@
 		(uuid "7242479e-eee8-43bd-be12-8da9143937c7")
 	)
 	(no_connect
+		(at 220.98 105.41)
+		(uuid "780fe7da-5d1f-4bd6-bf01-9afc2d4bbed4")
+	)
+	(no_connect
 		(at 125.73 160.02)
 		(uuid "7fb984de-9c9b-41b7-9f8b-61b3946d29ed")
 	)

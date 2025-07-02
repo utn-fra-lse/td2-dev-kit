@@ -3,4 +3,5 @@
   (lib (name "usini_sensors")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad_sensors/usini_sensors.pretty")(options "")(descr ""))
   (lib (name "custom-library")(type "KiCad")(uri "${KIPRJMOD}/libraries/custom-library/custom-library.pretty")(options "")(descr ""))
   (lib (name "rp2040-zero")(type "KiCad")(uri "${KIPRJMOD}/libraries/rp2040-zero/rp2040-zero.pretty")(options "")(descr ""))
+  (lib (name "images")(type "KiCad")(uri "${KIPRJMOD}/libraries/images")(options "")(descr ""))
 )
