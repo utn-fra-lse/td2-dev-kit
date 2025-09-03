@@ -29,11 +29,11 @@ Tiene una variedad de periféricos para poder usar que a continuación vamos a m
 | 2 | 9 | Output A de encoder rotativo |
 | 3 | 10 | Output B de encoder rotativo |
 | 12 | 37 | Botón de encoder rotativo |
-| 10 | 8 | Buzzer pasivo |
-| 11 | 38 | Ánodo LED amarillo |
-| 13 | 5 | Cátodo LED rojo (RGB) |
-| 14 | 6 | Cátodo LED verde (RGB) |
-| 15 | 7 | Cátodo LED azul (RGB) | 
+| 11 | 8 | Buzzer pasivo |
+| 10 | 38 | Ánodo LED individual |
+| 15 | 5 | Cátodo LED rojo (RGB) |
+| 13 | 6 | Cátodo LED verde (RGB) |
+| 14 | 7 | Cátodo LED azul (RGB) | 
 
 ### Entradas analógicas
 
